@@ -1,0 +1,117 @@
+* {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.start_btn {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.detail_screen,
+.quiz_screen {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.start_btn button {
+    font-size: 20px;
+    font-weight: 700;
+    color: green;
+    padding: 15px 30px;
+    border-radius: 10px;
+    background: lightblue;
+    cursor: pointer;
+}
+
+.detail_screen {
+    width: 700px;
+    background: rgb(192, 219, 255);
+    border-radius: 10px;
+}
+
+.detail_screen .detail_title {
+    height: 60px;
+    /* width: 100%; */
+    border-bottom: 5px solid darkblue;
+    display: flex;
+    align-items: center;
+    padding: 0 35px;
+    font-weight: 500;
+}
+
+.detail_screen .detail_list {
+    padding: 15px 35px;
+}
+
+.detail_screen .detail_list .details {
+    margin: 5px 0;
+    font-size: 20px;
+}
+
+.detail_screen .buttons {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0 35px;
+    border-top: 5px solid darkblue;
+}
+
+.detail_screen .buttons button{
+    margin: 0 4px;
+    height: 40px;
+    width: 100px;
+    border: 1px solid blue;
+    background: lightblue;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.quiz_screen {
+    width: 700px;
+    background: rgb(192, 219, 255);
+    border-radius: 10px;
+}
+
+.quiz_screen header {
+    height: 70px;
+    padding: 0 30px;
+    background: grey;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 5px 5px 0 0;
+}
+
+.quiz_screen header .quiz_title{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.quiz_screen header .timer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 145px;
+    height: 45px;
+}
+
+.quiz_screen header .timer .time_text {
+    font-weight: 400;
+    font-size: 17px;
+}
+
+.quiz_screen header .timer .timer_time {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.quiz_screen section {
+    padding: 24px 30px 20px 30px;
+}
